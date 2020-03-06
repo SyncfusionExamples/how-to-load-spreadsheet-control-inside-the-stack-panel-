@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadSpreadsheetControl_InsideStackPanel", "LoadSpreadsheetControl_InsideStackPanel.csproj", "{2E1BAFEA-DF32-4C32-AF85-34ED480CA4FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1BAFEA-DF32-4C32-AF85-34ED480CA4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1BAFEA-DF32-4C32-AF85-34ED480CA4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1BAFEA-DF32-4C32-AF85-34ED480CA4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1BAFEA-DF32-4C32-AF85-34ED480CA4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B69D687-99A1-4333-A841-9E144E1D0052}
+	EndGlobalSection
+EndGlobal
