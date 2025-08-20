@@ -1,2 +1,24 @@
-# how-to-load-spreadsheet-control-inside-the-stack-panel-
-This example demonstrates how to load the spreadsheet control inside the stack panel
+# How to load WPF Spreadsheet control inside the stackpanel
+
+This example demonstrates how to load the [WPF Spreadsheet](https://www.syncfusion.com/wpf-controls/spreadsheet) (SfSpreadsheet) control inside the stack panel.
+
+`StackPanel` is a type of container which can keep on growing as many as children. We added into it and provide equal space for each of its children. So, the `ScrollViewer` require height and width to define the space limit of `Spreadsheet` control.
+
+``` xml
+<StackPanel>
+ <Grid Height="750" Width="1000">
+  <Grid.RowDefinitions>
+     <RowDefinition Height="70"/>
+     <RowDefinition Height="auto"/>
+     <RowDefinition Height="*"/>
+  </Grid.RowDefinitions>
+  <Button Content="Load" Grid.Row="0" VerticalAlignment="Top" Width="100" 
+          Click="Button_Click" HorizontalAlignment="Left" Margin="10"/>
+  <syncfusion:SfSpreadsheetRibbon Grid.Row="1"  
+                                syncfusion:SkinStorage.VisualStyle="office2010lBlue"/>
+  <syncfusion:SfSpreadsheet Name="spreadsheet" Grid.Row="2" Visibility="Hidden"/>
+ </Grid>
+</StackPanel>
+```
+
+![How to load WPF Spreadsheet control inside the stackpanel](https://www.syncfusion.com/uploads/user/kb/wpf/wpf-45404/wpf-45404_img1.png)
