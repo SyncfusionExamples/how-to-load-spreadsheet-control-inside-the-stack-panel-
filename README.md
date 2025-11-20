@@ -1,4 +1,4 @@
-# How to load WPF Spreadsheet control inside the stackpanel
+# How to Load WPF Spreadsheet Inside the StackPanel?
 
 This example demonstrates how to load the [WPF Spreadsheet](https://www.syncfusion.com/wpf-controls/spreadsheet) (SfSpreadsheet) control inside the stack panel.
 
@@ -21,4 +21,4 @@ This example demonstrates how to load the [WPF Spreadsheet](https://www.syncfusi
 </StackPanel>
 ```
 
-![How to load WPF Spreadsheet control inside the stackpanel](https://www.syncfusion.com/uploads/user/kb/wpf/wpf-45404/wpf-45404_img1.png)
+![Spreadsheet loaded inside stackpanel](SpreadsheetInsideStackpanel.png)
